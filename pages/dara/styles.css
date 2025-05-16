@@ -1,1 +1,6 @@
-/* pagina do artur */
+
+body {
+    background-image: url("./assets/filmess.jpg");
+    align-items: center;
+  }
+
