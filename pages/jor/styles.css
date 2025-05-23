@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    }
+    
+    
+    .sessão-homem-aranha {
+    position: relative;
+    background-image: url('../assets/spiderman.avif'); /* Caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: inset 0 -100px 100px rgba(0, 0, 0, 0.7);
+    }
+    
+    
+    .logo {
+    width: 180px;
+    margin-top: 10px;
+    }
+    
+    
+    .descrição {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+    font-size: 14px;
+    line-height: 1.6;
+    }
+    
+    
