@@ -1,6 +1,25 @@
 
 body {
+    
     background-image: url("./assets/filmess.jpg");
-    align-items: center;
+  background-repeat: no-repeat;
+  background-position: -78px;
+  margin-right: 30px;
   }
+.osp{
+  background-color: rgba(0, 0, 0, 0.411);
+
+}
+ 
+button-checkbox{
+
+ color: aquamarine;
+ border-bottom: 10;
+ border-color: rgb(35, 118, 90);
+}
+
+.container mt-3{
+
+  color: rgb(13, 107, 107);
+}
 
