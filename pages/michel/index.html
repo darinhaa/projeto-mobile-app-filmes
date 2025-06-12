@@ -3,36 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Barbie: Life in the Dreamhouse</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background-image: url('banner.jpg'); /* Substitua 'banner.jpg' pela URL da imagem do banner */
+            background-size: cover;
+            background-position: center;
+        }
+        .title {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 24px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .buttons button {
+            background-color: #ff6600;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .buttons button:hover {
+            background-color: #e65c00;
+        }
+        .description {
+            padding: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+        .icons {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+        .icons img {
+            width: 2444px;
+            height: 2444px;
+            cursor: pointer;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <img src="assets/projetomichel.png.png" alt="Logo da Netflix" class="logo">
-    </header>
-
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Assista onde quiser.</h1>
-            <p>Transmita filmes e séries ilimitados no seu celular, tablet, laptop e TV.</p>
-            <a href="#" class="cta-button">Assista agora</a>
+<body><img src="assets/projetomichel.png.png" alt="Logo da Netflix" class="logo">
+    <div class="container">
+        <div class="banner">
+            <div class="title">Barbie: Life in the Dreamhouse</div>
         </div>
-    </section>
-
-    <footer>
-        <p>&copy; O filme acompanha Barbie
-            (interpretada por Margot Robbie),
-            uma boneca que vive em Barbieland,
-            um mundo perfeito e cor-de-rosa,
-            onde todos os dias são repletos de festas, 
-           moda e diversão. No entanto,
-            sua vida começa a perder o brilho quando
-            ela começa a questionar sua existência e percebe que seus 
-           pés tocam o chão, algo que nunca acontecia antes. 
-           Em busca de respostas, Barbie parte para o mundo
-            real, acompanhada por Ken (Ryan Gosling),
-            seu namorado. Lá, ela enfrenta os desafios da vida
-            cotidiana e descobre que a perfeição não é tudo. </p>
-    </footer>
+        <div class="buttons">
+            <button>Reproduzir Filme</button>
+            <button>Baixar Filme</button>
+        </div>
+        <div class="description">
+            O filme acompanha Barbie (interpretada por Margot Robbie), uma boneca que vive em Barbieland, um mundo perfeito e cor-de-rosa. No entanto, sua vida começa a perder o brilho quando ela percebe que seus pés tocam o chão. Em busca de respostas, Barbie parte para o mundo real, enfrentando novos desafios e descobrindo que a perfeição não é tudo.
+        </div>
+        <div class="icons">
+            <img src="trailer.png" alt="Trailer">
+            <img src="add.png" alt="Adicionar à Lista">
+            <img src="like.png" alt="Gostei">
+            <img src="no-interest.png" alt="Sem Interesse">
+            <img src="share.png" alt="Compartilhar">
+        </div>
+    </div>
 </body>
 </html>
