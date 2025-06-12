@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>página jordana</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spider-Man App</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
- <div class="sessão-homem-aranha">
- <img src="./assets/spiderman.avif" alt="sessão-homem-aranha" class="logo">
- <p class="descrição">
-    Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury. 
-    Convocado para mais uma missão heroica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris
-    e Veneza, e também a aparição do enigmático Mysterio.
- </p>
- </div>
+  <div class="app">
+    <aside class="sidebar">
+      <button class="btn home"></button>
+      <button class="btn search"></button>
+      <button class="btn user"></button>
+      <button class="btn share"></button>
+      <button class="btn settings"></button>
+      <button class="btn menu"></button>
+    </aside>
 
+    <main class="main-content">
+      <section class="highlight">
+        <div class="highlight-info">
+          <img src="./assets/titulo.png" alt="Spider-Man Logo" class="logo" />
+          <p class="highlight-desc">
+            Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos do colégio, quando é surpreendido pela visita de Nick Fury. Convidado para uma missão secreta...
+          </p>
+        </div>
+        <img src="./assets/spiderman.avif" alt="Spider-Man Image" class="highlight-image" />
+      </section>
+
+      <section class="recommendations">
+        <h2>Recomendações</h2>
+        <div class="movie-grid">
+          <img src="./assets/filme1.png" alt="Filme 1" />
+          <img src="./assets/filme2.png" alt="Filme 2" />
+          <img src="./assets/filme3.png" alt="Filme 3" />
+          <img src="./assets/filme4.png" alt="Filme 4" />
+          <img src="./assets/filme5.png" alt="Filme 5" />
+          <img src="./assets/filme6.png" alt="Filme 6" />
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
