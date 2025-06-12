@@ -45,8 +45,8 @@ body {
   }
   
   .highlight-image {
-    width: 100%;
-    height: 100%;
+    width: 140%;
+    height: 75%;
     object-fit: cover;
     display: block;
   }
@@ -62,13 +62,21 @@ body {
   }
   
   .logo {
-    width: 150px;
-    margin-bottom: 20px;
+    position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 150px;
+  z-index: 5;
   }
   
   .highlight-desc {
-    font-size: 14px;
-    line-height: 1.5;
+    max-width: 400px;
+  margin-top: 100px;
+  margin-right: 30px;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  z-index: 2;
   }
   
   .recommendations {
