@@ -1,0 +1,23 @@
+{
+  "name": "projeto-mobile-app-filmes",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darinhaa/projeto-mobile-app-filmes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darinhaa/projeto-mobile-app-filmes/issues"
+  },
+  "homepage": "https://github.com/darinhaa/projeto-mobile-app-filmes#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  }
+}
