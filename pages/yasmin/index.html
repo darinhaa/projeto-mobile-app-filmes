@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
    <link rel="stylesheet" href="styles.css">
+   <script src="./script.js"></script>
 </head>
+
+
 <body>
     
     <div class="content">
         <div class="section-title">
-            YASMIN
-        </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="editar bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+</svg>      YASMIN
+        
+       </div>
         
         <div class="menu-item" onclick="openModal('Editar Nome', 'name', 'Digite o novo nome')">
             <div class="menu-item-text">
@@ -55,7 +62,10 @@
     </div>
     
     <div class="footer">
-        © Excluir Perfil
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="excluir bi bi-dash-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+</svg>   Excluir Perfil
     </div>
     
     <!-- Modal Genérico -->
@@ -79,12 +89,12 @@
             <div class="modal-body">
                 <p>Selecione uma cor para o ícone:</p>
                 <div class="color-picker">
-                    <div class="color-option selected" style="background-color: #FF9500;" onclick="selectColor(this, '#FF9500')"></div>
-                    <div class="color-option" style="background-color: #fd9400;" onclick="selectColor(this, '#FFB143')"></div>
-                    <div class="color-option" style="background-color: #ff9500;" onclick="selectColor(this, '#E68600')"></div>
-                    <div class="color-option" style="background-color: #ff9900;" onclick="selectColor(this, '#FF7000')"></div>
-                    <div class="color-option" style="background-color: #ffa600;" onclick="selectColor(this, '#FFA500')"></div>
-                    <div class="color-option" style="background-color: #ff9100;" onclick="selectColor(this, '#FF8C00')"></div>
+                    <div class="color-option selected" style="background-color: #ffffff;" onclick="selectColor(this, '#FF9500')"></div>
+                    <div class="color-option" style="background-color: #f0f0f0;" onclick="selectColor(this, '#FFB143')"></div>
+                    <div class="color-option" style="background-color: #ffffff;" onclick="selectColor(this, '#E68600')"></div>
+                    <div class="color-option" style="background-color: #ffffff;" onclick="selectColor(this, '#FF7000')"></div>
+                    <div class="color-option" style="background-color: #fffdf8;" onclick="selectColor(this, '#FFA500')"></div>
+                    <div class="color-option" style="background-color: #fffbf6;" onclick="selectColor(this, '#FF8C00')"></div>
                 </div>
                 <div class="modal-buttons">
                     <button class="modal-button modal-cancel" onclick="closeIconModal()">Cancelar</button>
@@ -94,84 +104,5 @@
         </div>
     </div>
     
-    <script>
-        // Variáveis globais
-        let currentField = '';
-        let selectedColor = '#FF9500';
-        
-        // Função para abrir modal genérico
-        function openModal(title, field, placeholder) {
-            currentField = field;
-            document.getElementById('modal-header').textContent = title;
-            document.getElementById('modal-input').placeholder = placeholder;
-            document.getElementById('modal-input').value = document.getElementById(field + '-value').textContent;
-            document.getElementById('editModal').style.display = 'flex';
-        }
-        
-        // Função para fechar modal genérico
-        function closeModal() {
-            document.getElementById('editModal').style.display = 'none';
-        }
-        
-        // Função para salvar alterações
-        function saveChanges() {
-            const newValue = document.getElementById('modal-input').value;
-            if (newValue.trim() !== '') {
-                document.getElementById(currentField + '-value').textContent = newValue;
-                closeModal();
-                
-                // Atualiza o título da seção se for o nome
-                if (currentField === 'name') {
-                    document.querySelector('.section-title').textContent = newValue;
-                }
-            }
-        }
-        
-        // Função para abrir modal de ícone
-        function openIconModal() {
-            document.getElementById('iconModal').style.display = 'flex';
-        }
-        
-        // Função para fechar modal de ícone
-        function closeIconModal() {
-            document.getElementById('iconModal').style.display = 'none';
-        }
-        
-        // Função para selecionar cor
-        function selectColor(element, color) {
-            // Remove a classe 'selected' de todas as opções
-            document.querySelectorAll('.color-option').forEach(option => {
-                option.classList.remove('selected');
-            });
-            
-            // Adiciona a classe 'selected' à opção clicada
-            element.classList.add('selected');
-            selectedColor = color;
-        }
-        
-        // Função para salvar ícone
-        function saveIcon() {
-            document.getElementById('icon-value').textContent = 'Personalizado';
-            document.querySelector('.section-title').style.backgroundColor = selectedColor + '40'; // Adiciona transparência
-            document.querySelector('.section-title').style.color = selectedColor;
-            closeIconModal();
-        }
-        
-        // API de cores laranja (simulada)
-        function getOrangePalette() {
-            return {
-                primary: '#FF9500',
-                light: '#FFB143',
-                dark: '#E68600',
-                pale: '#FFE8CC'
-            };
-        }
-        
-        // Inicializa a paleta de cores
-        document.addEventListener('DOMContentLoaded', function() {
-            const palette = getOrangePalette();
-            console.log('Paleta de cores laranja carregada:', palette);
-        });
-    </script>
 </body>
 </html>
