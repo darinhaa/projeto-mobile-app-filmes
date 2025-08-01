@@ -31,3 +31,16 @@ A imagem acima mostra a checbox, que ao apertar, é salva suas informaçoes, e n
 
 ![A imagem mostra que as informações são salvas automaticamente.](./pages/dara/assets/front6.png);
 
+
+
+
+
+
+
+
+#pag grazzy
+
+![A imagem mostra tanatanatana.](./pages/grazi/assets/parte%201.png);
+
+
+
