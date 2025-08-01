@@ -12,7 +12,7 @@
  A imagem acima mostra a tela de mobile pronta, bem parecida com o prototipo inicial. Os requisitos da tela de Mobile e de front são os mesmos. Então decidi apenas explicar o que cada um funciona apenas na tela de front. 
 ![a imagem mostra o projeto de front end](./pages/dara/assets/front1.png)
 
-A imagem acima mostra o projeto de front finalizado. Com lugar para colocar e-mail ou número de telefone, sua senha, você também pode fazer login com o facebook caso não seja cadastrado. Como me inspirei na netiflix, você clicando no "precisa de ajuda", sera direcionado para a central de ajuda da Netiflix. Assim como para fazer o cadastro (caso não tenha), tambem sera direcionado para a Netiflix.
+A imagem acima mostra o projeto de front finalizado. Com lugar para colocar e-mail ou número de telefone, sua senha, você também pode fazer login com o facebook caso não seja cadastrado. Como me inspirei na netflix, você clicando no "precisa de ajuda", sera direcionado para a central de ajuda da Netflix. Assim como para fazer o cadastro (caso não tenha), tambem sera direcionado para a Netflix.
 
 ![a imagem mostra como colocar o e-mail no app](./pages/dara/assets/front2.png);
 
@@ -20,14 +20,17 @@ A imagem acima mostra que é possivel você digitar seu e-mail ou número de tel
 
 ![Mostra como colocar a senha](./pages/dara/assets/front3.png);
 
-A imagem acima mostra como coloca a senha, e é possível esconder sua senha mostrada como na imagem abaixo. Escolhi fazer assim, pois é uma segurança a mais caso a pessoa vá logar com outras olhando. 
+A imagem acima mostra como coloca a senha, e é possível esconder sua senha mostrada como na imagem abaixo. Escolhi fazer assim, pois é uma segurança a mais caso a pessoa vá logar com outras olhando ou em outros pcs.
 
 ![a imagem mostra que tem como esconder a senha](./pages/dara/assets/front4.png)
-
+Quando você aperta no "Sing In" (depois de colocar sua senha, caso você não coloque a senha, o site não permite que você prosiga.) é direcionado para a tela de perfils da grazi. 
 
 ![a imagem mostra a checkbox, e mostra os seguintes links= precisa de ajuda?, Login com o facebok e se ainda não tem o cineclube para fazer o cadastro.](./pages/dara/assets/front5.png);
 
-A imagem acima mostra a checbox, que ao apertar, é salva suas informaçoes, e não é necessario logar de volta. Além de mostar
+A imagem msotra a checbox com o titulo "Lembre de mim", que funciona para não ser necessario fazer login novamente. Ali mostra também os seguintes links: "Precisa de ajuda?", "Login com o Facebook", "Ainda não tem o CineClub? Faça o Sing Up!", como dito antes o site foi inspirado na netflix, então todos os links ditos ( menos o facebook ) são direcionados para as tais situações como o "Precisa de ajuda?", ele vai para a central de ajuda da Netflix. E o Facebook, ele vai para a tela de login do aplicativo. 
+
 
 ![A imagem mostra que as informações são salvas automaticamente.](./pages/dara/assets/front6.png);
+
+A imagem mostra a checbox salvando as informações. 
 
