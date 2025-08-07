@@ -12,7 +12,7 @@ body {
   
   .sidebar {
     width: 35px;
-    height: 275px;
+    height: 330px;
     background-color: orange;
     display: flex;
     flex-direction: column;
@@ -38,8 +38,8 @@ body {
   }
   
   .superior-img {
-    width: 140%;
-    height: 90%;
+    width: 100%;
+    height: 180%;
     opacity: 100%;
     object-fit: cover;
     display: block;
@@ -113,12 +113,7 @@ color: green (255, 255, 255);
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 
-
-
 }
-
-
-  
   
   .recomendações {
     padding: 20px;
@@ -150,7 +145,7 @@ color: green (255, 255, 255);
   .movie-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
   }
   
   .movie-grid img {
@@ -187,6 +182,19 @@ color: green (255, 255, 255);
     opacity: 100%;
     object-fit: cover;
     display: block;
+  }
+
+  .sidebar {
+    width: 35px;
+    height: 275px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    gap: 30px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 20px;
   }
   }
 
