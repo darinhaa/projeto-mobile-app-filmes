@@ -69,7 +69,7 @@ A imagem começa a mostrar as funcionalidades da tela, mostrando o efeito de zoo
 
 ![A imagem mostra a tela em formato para computadores](./pages/jor/assets/print04.png)
 
-A imagem mostra a tela em formato para computadores, tendo alteração no tamanho da navebar e no tamanho das fotos dos filmes, diferenciando o tamanho com que eles se distribuem para que continue proporcional. 
+A imagem mostra a tela em formato para computadores, tendo alteração no tamanho da navebar e no tamanho das fotos dos filmes, diferenciando o tamanho com que eles se distribuem para que continue proporcional. Diferente da tela de celulares, para ter o efeito de zoom não é preciso clicar no filme, o efeito acontece apenas com o mouse passando em cima. 
 
 ![Imagem do funcionamento da API](./pages/jor/assets/print05.png) 
 
