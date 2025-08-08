@@ -67,7 +67,7 @@ A imagem mostra a visão geral da página para celulares, tendo o filme do Homem
 
 A imagem começa a mostrar as funcionalidades da tela, mostrando o efeito de zoom na imagem dos filmes abaixo de "recomendações" quando você clica em cima.
 
-![A imagem mostra a tela em formato para computadores](./pages/assets/print04.png)
+![A imagem mostra a tela em formato para computadores](./pages/jor/assets/print04.png)
 
 A imagem mostra a tela em formato para computadores, tendo alteração no tamanho da navebar e no tamanho das fotos dos filmes, diferenciando o tamanho com que eles se distribuem para que continue proporcional. 
 
