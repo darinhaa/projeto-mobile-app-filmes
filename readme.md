@@ -50,3 +50,33 @@ a imagem mostra a pagina de seleção de perfil onde se inicia a experiência do
 A ultima imagem mostra o botão que liga minha pag a da jordana direciona diretamente para a pag dela
 
 
+
+
+
+
+
+
+# página jor
+
+
+![A imagem mostra a tela em formato para celulares, mostrando recomendações, navebar e um filme em destaque](./pages/jor/assets/print02.png)
+
+A imagem mostra a visão geral da página para celulares, tendo o filme do Homem-Aranha em destaque e abaixo mais 6 recomendações de filmes. No canto da página podemos ver a navebar que direciona para as outras páginas do site, sendo o símbolo de lupa direcionando para a página do sanduíche, o símbolo de perfil para a página da grazi, o compartilhar e dowload para a página do michel e o menu para a página da yasmin.
+
+![zoom na imagem de um dos filmes](./pages/jor/assets/print01.png)
+
+A imagem começa a mostrar as funcionalidades da tela, mostrando o efeito de zoom na imagem dos filmes abaixo de "recomendações" quando você clica em cima.
+
+![A imagem mostra a tela em formato para computadores](./pages/assets/print04.png)
+
+A imagem mostra a tela em formato para computadores, tendo alteração no tamanho da navebar e no tamanho das fotos dos filmes, diferenciando o tamanho com que eles se distribuem para que continue proporcional. 
+
+![Imagem do funcionamento da API](./pages/jor/assets/print05.png) 
+
+A imagem mostra o que a API faz, nesse caso, ao clicar em algum dos filmes abaixo de "recomendações" você é redirecionado para o trailer do filme no YouTube, não usa APIs específicas do vs code mas usa funcionalidades típicas da Web API (como document.addEventListener, querySelector, etc.) 
+
+![Erro da API](./pages/jor/assets/print06.png)
+
+A API não funcionou nos filmes "ainda estou aqui" e "branca de neve" o link não foi encontrado então é exibido uma mensagem na tela dizendo que o trailer não está disponível.
+A página em si é isso e você pode ser direcionado para outras páginas clicando em qualquer um dos ícones da navebar.
+
