@@ -42,5 +42,5 @@ A imagem acima mostra a checbox, que ao apertar, é salva suas informaçoes, e n
 
 ![A imagem mostra pagina de emtrada de perfil ou seja a pagina de seleção de quem vai assistir.](./pages/grazi/assets/parte1.png) a imagem mostra a pagina de seleção de perfil onde se inicia a experiência do usuario.
 
-![A imagem 2 basicamente e a mesma coisa porem alterar o usuario] (./pages/grazi/assets/grazzzy.png)
+![A imagem 2 basicamente e a mesma coisa porem alterar o usuario] (./pages/grazi/assets/grazzzy.png) esta imagem tambem apresenta um card de seleção de perfil 
 
