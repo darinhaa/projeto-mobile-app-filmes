@@ -40,7 +40,13 @@ A imagem acima mostra a checbox, que ao apertar, é salva suas informaçoes, e n
 
 # pag grazzy
 
-![A imagem mostra pagina de emtrada de perfil ou seja a pagina de seleção de quem vai assistir.](./pages/grazi/assets/parte1.png) a imagem mostra a pagina de seleção de perfil onde se inicia a experiência do usuario.
+![A imagem mostra pagina de emtrada de perfil ou seja a pagina de seleção de quem vai assistir.](./pages/grazi/assets/parte1.png) 
+a imagem mostra a pagina de seleção de perfil onde se inicia a experiência do usuario.
 
-![A imagem 2 basicamente e a mesma coisa porem alterar o usuario] (./pages/grazi/assets/grazzzy.png) esta imagem tambem apresenta um card de seleção de perfil 
+![A imagem 2 basicamente e a mesma coisa porem alterar o usuario,](./pages/grazi/assets/grazzzy.png) esta imagem tambem apresenta um card de seleção de perfil, a pagina e basicamente isso somente.
+
+
+![A ultima imagem mostra o botão de assitir que direciona para a pagina inicial, para você selecionar oque vai assistir.](./pages/grazi/assets/jordana.png)
+A ultima imagem mostra o botão que liga minha pag a da jordana direciona diretamente para a pag dela
+
 
