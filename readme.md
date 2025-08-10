@@ -80,3 +80,28 @@ A imagem mostra o que a API faz, nesse caso, ao clicar em algum dos filmes abaix
 A API não funcionou nos filmes "ainda estou aqui" e "branca de neve" o link não foi encontrado então é exibido uma mensagem na tela dizendo que o trailer não está disponível.
 A página em si é isso e você pode ser direcionado para outras páginas clicando em qualquer um dos ícones da navebar.
 
+
+
+
+
+
+
+# página michel
+
+Não terminou.
+
+
+
+
+
+
+# sanduíche 
+
+![sanduíche em modo para computadores](./pages/sanduíche/assets/print01.png)
+
+![imagem sanduíche para celulares](./pages/sanduiche/assets/print02.png) 
+
+![continuação da imagem para celulares](./pages/sanduiche/assets/print03.png)
+
+As imagens mostram o sanduíche, que é uma página que conta com os gêneros de filmes onde tem um efeito de zoom ao clicar em um gênero, como "terror" por exemplo. A página conta com uma barra de pesquisa onde funciona pra você digitar.
+
