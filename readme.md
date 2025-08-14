@@ -119,6 +119,27 @@ As imagens mostram o sanduíche, que é uma página que conta com os gêneros de
 
 a imagem mostra a seta que direciona minha pagina para a pag da jor
 
+![a imagem mostra o card para modificar o nome do usuario](./pages/yasmin/assets/card.png)
+
+
+
+
+a imagem mostra o card para modificar o nome do usuário
+
+![a imagem mostra no card que modifica a cor porem nao funcionou](./pages/yasmin/assets/COLOR.png)
+
+a imagem mostra no card que modifica a cor porem nao funcionou
+
+
+![a imagem mostra a classificação de faixa etaria para maiores de 18](./pages/yasmin/assets/tre.png)
+
+
+a imagem mostra a classificação de faixa etaria para maiores de 18
+
+
+![a imagem mostra om idioma do perfil ](./pages/yasmin/assets/gtr.png)
+
+a imagem mostra om idioma do perfil
 
 
 
