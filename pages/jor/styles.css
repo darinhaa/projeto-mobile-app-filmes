@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2e2424;
+    color: white;
+  }
+  
+  .app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 35px;
+    height: 330px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    gap: 30px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 20px;
+  }
+  
+  
+  
+  .página {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .superior {
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+  }
+  
+  .superior-img {
+    width: 100%;
+    height: 180%;
+    opacity: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .superior-info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  .logo {
+    position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 150px;
+  z-index: 5;
+  }
+  
+  .superior-desc {
+    background-color: rgba(0, 0, 0, 0.0);
+    position: relative;
+    right: 50px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+    max-width: 500px;
+  margin-top: 30px;
+  margin-right: -10px;
+  color: white;
+  font-size: 10px;
+  line-height: 1.5;
+  z-index: 2;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  
+  
+
+  .relevância {
+color: chartreuse;
+position: relative;
+left: -30px;
+margin-top: -103px;
+font-size: 7px;
+color: green (255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+
+
+  }
+
+.data {
+  color: gray;
+  position: relative;
+  left: 35px;
+  margin-top: -14.5px;
+  font-size: 6px;
+  color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.duração {
+  color: gray;
+  position: relative;
+  left: 65px;
+  margin-top: -14.1px;
+  font-size: 6px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+
+}
+  
+  .recomendações {
+    padding: 20px;
+    
+  }
+
+  .recomendado {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.3s ease, 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .recomendado:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .recomendações h2 {
+    position: relative;
+    right: 25px;
+    height: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .movie-grid img {
+    position: relative;
+    right: 25px;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+  }
+
+
+  /* configurações de celular */
+  @media (max-width: 400px) {
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .movie-grid img {
+    position: relative;
+    right: 25px;
+    width: 95px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .superior-img {
+    width: 140%;
+    height: 90%;
+    opacity: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .sidebar {
+    width: 35px;
+    height: 275px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    gap: 30px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 20px;
+  }
+  }
+
+
+  
+  
+  
+    
+    
