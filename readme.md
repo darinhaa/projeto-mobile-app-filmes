@@ -1,6 +1,6 @@
 # Projeto filmes
 
-#Link Figma: https://www.figma.com/design/mlWfBOUTGxjoEbkNSplA9w/Untitled?m=auto&t=RELPzDugtSKyWnLS-6
+# Link Figma: https://www.figma.com/design/mlWfBOUTGxjoEbkNSplA9w/Untitled?m=auto&t=RELPzDugtSKyWnLS-6
 
 # Página Darinha
 
