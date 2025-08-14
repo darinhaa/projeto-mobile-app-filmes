@@ -40,7 +40,68 @@ A imagem acima mostra a checbox, que ao apertar, é salva suas informaçoes, e n
 
 # pag grazzy
 
-![A imagem mostra tanatanatana.](./pages/grazi/assets/parte1.png)
+![A imagem mostra pagina de emtrada de perfil ou seja a pagina de seleção de quem vai assistir.](./pages/grazi/assets/parte1.png) 
+a imagem mostra a pagina de seleção de perfil onde se inicia a experiência do usuario.
+
+![A imagem 2 basicamente e a mesma coisa porem alterar o usuario,](./pages/grazi/assets/grazzzy.png) esta imagem tambem apresenta um card de seleção de perfil, a pagina e basicamente isso somente.
 
 
+![A ultima imagem mostra o botão de assitir que direciona para a pagina inicial, para você selecionar oque vai assistir.](./pages/grazi/assets/jordana.png)
+A ultima imagem mostra o botão que liga minha pag a da jordana direciona diretamente para a pag dela
+
+
+
+
+
+
+
+
+# página jor
+
+
+![A imagem mostra a tela em formato para celulares, mostrando recomendações, navebar e um filme em destaque](./pages/jor/assets/print02.png)
+
+A imagem mostra a visão geral da página para celulares, tendo o filme do Homem-Aranha em destaque e abaixo mais 6 recomendações de filmes. No canto da página podemos ver a navebar que direciona para as outras páginas do site, sendo o símbolo de lupa direcionando para a página do sanduíche, o símbolo de perfil para a página da grazi, o compartilhar e dowload para a página do michel e o menu para a página da yasmin.
+
+![zoom na imagem de um dos filmes](./pages/jor/assets/print01.png)
+
+A imagem começa a mostrar as funcionalidades da tela, mostrando o efeito de zoom na imagem dos filmes abaixo de "recomendações" quando você clica em cima.
+
+![A imagem mostra a tela em formato para computadores](./pages/jor/assets/print04.png)
+
+A imagem mostra a tela em formato para computadores, tendo alteração no tamanho da navebar e no tamanho das fotos dos filmes, diferenciando o tamanho com que eles se distribuem para que continue proporcional. Diferente da tela de celulares, para ter o efeito de zoom não é preciso clicar no filme, o efeito acontece apenas com o mouse passando em cima. 
+
+![Imagem do funcionamento da API](./pages/jor/assets/print05.png) 
+
+A imagem mostra o que a API faz, nesse caso, ao clicar em algum dos filmes abaixo de "recomendações" você é redirecionado para o trailer do filme no YouTube, não usa APIs específicas do vs code mas usa funcionalidades típicas da Web API (como document.addEventListener, querySelector, etc.) 
+
+![Erro da API](./pages/jor/assets/print06.png)
+
+A API não funcionou nos filmes "ainda estou aqui" e "branca de neve" o link não foi encontrado então é exibido uma mensagem na tela dizendo que o trailer não está disponível.
+A página em si é isso e você pode ser direcionado para outras páginas clicando em qualquer um dos ícones da navebar.
+
+
+
+
+
+
+
+# página michel
+
+Não terminou.
+
+
+
+
+
+
+# sanduíche 
+
+![sanduíche em modo para computadores](./pages/sanduiche/assets/print1)
+
+![imagem sanduíche para celulares](./pages/sanduiche/assets/print2)
+
+![continuação da imagem para celulares](./pages/sanduiche/assets/print3)
+
+As imagens mostram o sanduíche, que é uma página que conta com os gêneros de filmes onde tem um efeito de zoom ao clicar em um gênero, como "terror" por exemplo. A página conta com uma barra de pesquisa onde funciona pra você digitar.
 
