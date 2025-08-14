@@ -1,4 +1,4 @@
-/* Reset e configurações básicas */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #000; /* Fundo preto */
-    color: #ff8c00; /* Texto laranja */
+    background-color: #000; 
+    color: #ff8c00; 
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,10 +20,10 @@ body {
     max-width: 800px;
     width: 100%;
     padding: 30px;
-    background-color: #111; /* Fundo preto mais claro para o container */
+    background-color: #111; 
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255, 140, 0, 0.2); /* Sombra laranja */
-    border: 1px solid #000000; /* Borda laranja */
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.2); 
+    border: 1px solid #000000;
 }
 
 header {
@@ -31,16 +31,16 @@ header {
 }
 
 .logo {
-    width: 290px; /* Aumente este valor para o tamanho desejado */
-    height: auto; /* Mantém a proporção original */
+    width: 290px; 
+    height: auto; 
     display: block;
-    margin: 20px auto; /* Centraliza a imagem */
-    filter: none; /* Remove filtros de cor se aplicado anteriormente */
+    margin: 20px auto; 
+    filter: none; 
 }
 
 .movie-header h1 {
     font-size: 2.5rem;
-    color: #ff8c00; /* Laranja */
+    color: #ff8c00; 
     margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(255, 140, 0, 0.5);
 }
@@ -48,7 +48,7 @@ header {
 .movie-header .subtitle {
     display: block;
     font-size: 1.5rem;
-    color: #ffa500; /* Laranja mais claro */
+    color: #ffa500; 
 }
 
 .movie-actions {
@@ -59,8 +59,8 @@ header {
 
 .primary-action {
     padding: 12px 25px;
-    background-color: #ff8c00; /* Laranja */
-    color: #000; /* Texto preto */
+    background-color: #ff8c00; 
+    color: #000; 
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -70,14 +70,14 @@ header {
 }
 
 .primary-action:hover {
-    background-color: #ff6b00; /* Laranja mais escuro */
+    background-color: #ff6b00; 
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
 }
 
 .separator {
     height: 1px;
-    background-color: #ff8c00; /* Linha laranja */
+    background-color: #ff8c00; 
     margin: 20px 0;
     opacity: 0.3;
 }
