@@ -1,0 +1,92 @@
+
+    
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .header {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+            background-color: #ff8c00f3;
+            position: relative;
+        }
+
+        .title {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            text-shadow: 0 0 10px rgba(255, 206, 9, 0.7);
+        }
+
+        .search-container {
+            margin: 20px 0 40px;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 20px;
+            border-radius: 25px;
+            border: 2px solid #ffffff;
+            background-color: rgb(255, 255, 255);
+            color: #000000;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        .search-input::placeholder {
+            color: #705252;
+        }
+
+        .genres-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 80%;
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .genre-button {
+            background-color: #ff8c00f3;
+            color: #FFFFFF;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            padding: 15px 0;
+            font-size: 1.2rem;
+            font-weight: bold;  
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .genre-button:hover {
+            background-color: #ff8c00f3;
+            color: #000000;
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 600px) {
+            .genres-container {
+                grid-template-columns: 1fr;     
+            }
+            
+            .title {
+                font-size: 2.5rem;
+            }
+        }
+    
