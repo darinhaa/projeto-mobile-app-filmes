@@ -107,3 +107,16 @@ Não terminou.
 
 As imagens mostram o sanduíche, que é uma página que conta com os gêneros de filmes onde tem um efeito de zoom ao clicar em um gênero, como "terror" por exemplo. A página conta com uma barra de pesquisa onde funciona pra você digitar.
 
+
+
+
+# pag yasmin
+
+![a imagem mostra a seta que direciona a minha pag para a da jordana](./pages/yasmin/assets/seta.png)
+
+
+
+
+
+
+
