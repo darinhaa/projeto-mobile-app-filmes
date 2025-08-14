@@ -1,5 +1,7 @@
 # Projeto filmes
 
+# Link Figma: https://www.figma.com/design/mlWfBOUTGxjoEbkNSplA9w/Untitled?m=auto&t=RELPzDugtSKyWnLS-6
+
 # Página Darinha
 
 ![a imagem fala sobre mostra o prototipo do figma, de como gostaria a cara do meu site.](./pages/dara/assets/figmaimg.png);
@@ -69,7 +71,7 @@ A imagem começa a mostrar as funcionalidades da tela, mostrando o efeito de zoo
 
 ![A imagem mostra a tela em formato para computadores](./pages/jor/assets/print04.png)
 
-A imagem mostra a tela em formato para computadores, tendo alteração no tamanho da navebar e no tamanho das fotos dos filmes, diferenciando o tamanho com que eles se distribuem para que continue proporcional. 
+A imagem mostra a tela em formato para computadores, tendo alteração no tamanho da navebar e no tamanho das fotos dos filmes, diferenciando o tamanho com que eles se distribuem para que continue proporcional. Diferente da tela de celulares, para ter o efeito de zoom não é preciso clicar no filme, o efeito acontece apenas com o mouse passando em cima. 
 
 ![Imagem do funcionamento da API](./pages/jor/assets/print05.png) 
 
@@ -79,4 +81,29 @@ A imagem mostra o que a API faz, nesse caso, ao clicar em algum dos filmes abaix
 
 A API não funcionou nos filmes "ainda estou aqui" e "branca de neve" o link não foi encontrado então é exibido uma mensagem na tela dizendo que o trailer não está disponível.
 A página em si é isso e você pode ser direcionado para outras páginas clicando em qualquer um dos ícones da navebar.
+
+
+
+
+
+
+
+# página michel
+
+Não terminou.
+
+
+
+
+
+
+# sanduíche 
+
+![sanduíche em modo para computadores](./pages/sanduiche/assets/print1)
+
+![imagem sanduíche para celulares](./pages/sanduiche/assets/print2)
+
+![continuação da imagem para celulares](./pages/sanduiche/assets/print3)
+
+As imagens mostram o sanduíche, que é uma página que conta com os gêneros de filmes onde tem um efeito de zoom ao clicar em um gênero, como "terror" por exemplo. A página conta com uma barra de pesquisa onde funciona pra você digitar.
 
