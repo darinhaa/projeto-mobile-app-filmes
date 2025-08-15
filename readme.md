@@ -101,11 +101,11 @@ Não terminou.
 
 # sanduíche 
 
-![sanduíche em modo para computadores](./pages/sanduiche/assets/print1)
+![sanduíche em modo para computadores](./pages/sanduiche/assets/sanduichefront1)
 
-![imagem sanduíche para celulares](./pages/sanduiche/assets/print2)
+![imagem sanduíche para celulares](./pages/sanduiche/assets/sanduichemobile1)
 
-![continuação da imagem para celulares](./pages/sanduiche/assets/print3)
+![continuação da imagem para celulares](./pages/sanduiche/assets/mobile2)
 
 As imagens mostram o sanduíche, que é uma página que conta com os gêneros de filmes onde tem um efeito de zoom ao clicar em um gênero, como "terror" por exemplo. A página conta com uma barra de pesquisa onde funciona pra você digitar.
 
