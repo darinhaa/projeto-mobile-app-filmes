@@ -1,5 +1,7 @@
 # Projeto filmes
 
+# Projeto feito por: Graziely 9, Hiandara 11, Jordana 13, Yasmin 33
+
 # Link Figma: https://www.figma.com/design/mlWfBOUTGxjoEbkNSplA9w/Untitled?m=auto&t=RELPzDugtSKyWnLS-6
 
 # Página Darinha
