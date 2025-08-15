@@ -143,3 +143,8 @@ a imagem mostra om idioma do perfil
 
 
 
+![a imagem mostra a seleção de perfil.](./pages/yasmin/assets/grade.png)
+
+
+a imagem mostrar a troca de idiomas ou seja onde você determina a lingua do seu filme e legendas.
+
